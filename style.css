@@ -16,7 +16,7 @@ body {
   position: absolute;
   left: -17vw;
   transition: left 2s;
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .container:hover {
   left: 0;
@@ -26,6 +26,7 @@ body {
   position: relative;
   background-color: rgb(184, 113, 0); 
   padding: 0.5rem;
+  padding-left: 1rem;
 }
 
 .container .baslik i {
@@ -39,6 +40,7 @@ body {
 }
 
 .container ul {
+  margin-left: 1rem;
   list-style-type: none;
 
 }
